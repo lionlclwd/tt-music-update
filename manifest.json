@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "appId": "com.ttmusic.app",
+  "channel": "stable",
+  "version": "1.2.1",
+  "buildNumber": 22,
+  "minimumSupportedVersion": "",
+  "minimumSupportedBuildNumber": 0,
+  "mandatory": false,
+  "rollout": {
+    "percentage": 100,
+    "salt": "com.ttmusic.app:22"
+  },
+  "publishedAt": "2026-10-18T01:30:55.958341Z",
+  "title": "TT MUSIC 1.2.1",
+  "releaseNotes": [
+    "自动更新链路与运行稳定性优化"
+  ],
+  "platforms": {
+    "windows-x64": {
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.1/TT-MUSIC-Setup-1.2.1.exe",
+      "sha256": "8682bcadfbc148de883e723f4d4595cf284feb66934297e7eaed30e09ed41b83",
+      "fileName": "TT-MUSIC-Setup-1.2.1.exe",
+      "sizeBytes": 185666418,
+      "storeUrl": "",
+      "installArguments": [],
+      "exitAppAfterLaunch": true
+    }
+  }
+}

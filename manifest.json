@@ -11,17 +11,17 @@
     "percentage": 100,
     "salt": "com.ttmusic.app:24"
   },
-  "publishedAt": "2026-10-23T12:38:03.921837Z",
+  "publishedAt": "2026-10-23T12:58:54.843659Z",
   "title": "TT MUSIC 1.2.3",
   "releaseNotes": [
-    "自动更新路径、安装稳定性与播放体验优化"
+    "包含近期功能与界面更新，并完善 Windows 发布安装包。"
   ],
   "platforms": {
     "windows-x64": {
       "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.3/TT-MUSIC-Setup-1.2.3.exe",
-      "sha256": "48ea3fcb7af9815a429e8ef9dc75c2b1785581b613244486c0a3ab56d332c6f1",
+      "sha256": "50535775759ec77316a0c3cc6734a284e6da134548b8910b33bcf649c426afb0",
       "fileName": "TT-MUSIC-Setup-1.2.3.exe",
-      "sizeBytes": 221606639,
+      "sizeBytes": 195623185,
       "storeUrl": "",
       "installArguments": [],
       "exitAppAfterLaunch": true

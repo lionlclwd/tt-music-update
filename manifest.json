@@ -2,26 +2,28 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.app",
   "channel": "stable",
-  "version": "1.2.4",
-  "buildNumber": 25,
+  "version": "1.2.5",
+  "buildNumber": 26,
   "minimumSupportedVersion": "",
   "minimumSupportedBuildNumber": 0,
   "mandatory": false,
   "rollout": {
     "percentage": 100,
-    "salt": "com.ttmusic.app:25"
+    "salt": "com.ttmusic.app:26"
   },
-  "publishedAt": "2026-10-27T11:13:45.868784Z",
-  "title": "TT MUSIC 1.2.4",
+  "publishedAt": "2026-11-03T01:17:06.031122Z",
+  "title": "TT MUSIC 1.2.5",
   "releaseNotes": [
-    "包含近期功能与界面更新，并完善 Windows 发布安装包。"
+    "修复音频缓存清理与后台下载、索引写入的并发冲突，文件占用时正确提示并支持重试。",
+    "统一音频缓存默认容量，修改上限后执行回收，改进旧索引迁移和缓存统计。",
+    "优化下载流写入与完整性校验，减少重复下载，改善本地缓存稳定性。"
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.4/TT-MUSIC-Setup-1.2.4.exe",
-      "sha256": "ac43c9d20ad605418552716373201c29e8da81bde112a9632081d7ad53a26c9f",
-      "fileName": "TT-MUSIC-Setup-1.2.4.exe",
-      "sizeBytes": 195667357,
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.5/TT-MUSIC-Setup-1.2.5.exe",
+      "sha256": "d20b36cf4d560c2d8d13030ba46d1263ff12a392dc0947a804df5e02f2517d7a",
+      "fileName": "TT-MUSIC-Setup-1.2.5.exe",
+      "sizeBytes": 197079822,
       "storeUrl": "",
       "installArguments": [],
       "exitAppAfterLaunch": true

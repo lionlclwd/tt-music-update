@@ -2,29 +2,29 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.app",
   "channel": "stable",
-  "version": "1.2.7",
-  "buildNumber": 28,
+  "version": "1.2.8",
+  "buildNumber": 29,
   "minimumSupportedVersion": "",
   "minimumSupportedBuildNumber": 0,
   "mandatory": false,
   "rollout": {
     "percentage": 100,
-    "salt": "com.ttmusic.app:28"
+    "salt": "com.ttmusic.app:29"
   },
-  "publishedAt": "2026-11-08T04:59:13.021437Z",
-  "title": "TT MUSIC 1.2.7",
+  "publishedAt": "2026-11-11T13:39:49.542330Z",
+  "title": "TT MUSIC 1.2.8",
   "releaseNotes": [
-    "改进联网歌曲播放调度，优先使用已配置账号与音源，并保持本地及 NAS 精确匹配优先。",
-    "完善艺人在线作品目录、身份匹配与作品播放，改进弱网加载和重试。",
-    "修复最近播放中的联网歌曲在重启后使用过期地址的问题，回放时重新获取有效音源。",
-    "包含近期界面交互与播放稳定性改进，保留存储迁移和缓存兼容修复。"
+    "优化 DJ 切歌的响度衔接与峰值保护，改善过渡中段音量下陷。",
+    "保留强烈暗空间混响，恢复原有 0.46 湿声与 3 秒混响窗口。",
+    "改进入场与尾句保护，修复首次播放开头被静音消耗及分析晚到时提前切歌的问题。",
+    "改善切歌中调音量、暂停、定位与异常恢复的稳定性。"
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.7/TT-MUSIC-Setup-1.2.7.exe",
-      "sha256": "da7ab34fd430142d958f8666e72fcde323022adf4c61573def354a413b7bdb41",
-      "fileName": "TT-MUSIC-Setup-1.2.7.exe",
-      "sizeBytes": 160546925,
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.8/TT-MUSIC-Setup-1.2.8.exe",
+      "sha256": "4e741d224992b4825fcbac63c8bc6389ffc40b8a506c21493dae56910fd19d3d",
+      "fileName": "TT-MUSIC-Setup-1.2.8.exe",
+      "sizeBytes": 320756057,
       "storeUrl": "",
       "installArguments": [],
       "exitAppAfterLaunch": true

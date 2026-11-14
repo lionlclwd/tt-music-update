@@ -2,20 +2,19 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.tv",
   "channel": "stable",
-  "version": "0.1.3",
-  "buildNumber": 4005,
+  "version": "0.1.4",
+  "buildNumber": 4006,
   "releaseNotes": [
-    "修复 TV 端筛选胶囊选中状态瞬间切换导致的动画无效问题。",
-    "优化遥控器焦点反馈，按钮和媒体卡片提供稳定的原位轻微缩放与焦点提示。",
-    "降低焦点移动时的视觉跳变，保持控件布局和遥控器命中区域稳定。",
-    "保留“减少动态效果”设置，开启后按系统偏好立即停用过渡动画。"
+    "修复首页最近添加等横向媒体卡片的遥控器焦点框被轨道裁切的问题。",
+    "统一全局文字胶囊按钮与首页筛选项的浅透底色、白色选中态、文字对比度和圆形端帽。",
+    "保留播放主按钮、媒体卡片和方形图标控件各自适用的交互样式。"
   ],
   "platforms": {
     "android-tv": {
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/tv-v0.1.3-4005/TT-MUSIC-TV-0.1.3-4005.apk",
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/tv-v0.1.4-4006/TT-MUSIC-TV-0.1.4-4006.apk",
       "minSdk": 24,
-      "sha256": "8e0240ed0d7acbe5302877717cbaee64a8b4f34f1dfe4414589ad46c20e53f3f",
-      "sizeBytes": 89800467
+      "sizeBytes": 89800467,
+      "sha256": "4b80d2529db7c81cfc4118ed773936d2f140b1a6979500ffa0a6f8ae81333d73"
     }
   }
 }

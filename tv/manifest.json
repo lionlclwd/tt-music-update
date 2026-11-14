@@ -2,21 +2,20 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.tv",
   "channel": "stable",
-  "version": "0.1.2",
-  "buildNumber": 4004,
+  "version": "0.1.3",
+  "buildNumber": 4005,
   "releaseNotes": [
-    "修复遥控器确认输入框后无法弹出屏幕键盘的问题，兼容被系统识别为硬件键盘的遥控器和电视盒子。",
-    "修复返回收起键盘后，输入框仍有焦点时再次按确认键无法重新输入的问题。",
-    "移除输入框内部不可见的焦点停靠点，统一搜索、登录、SQMusic设置和新建歌单的遥控输入行为。",
-    "保留输入内容、返回退出编辑、键盘下一项和完成操作，以及中文输入法组合状态保护。",
-    "包含已完成的首页专辑/EP歌曲页入口，遥控器可聚焦并打开所属发行的歌曲列表。"
+    "修复 TV 端筛选胶囊选中状态瞬间切换导致的动画无效问题。",
+    "优化遥控器焦点反馈，按钮和媒体卡片提供稳定的原位轻微缩放与焦点提示。",
+    "降低焦点移动时的视觉跳变，保持控件布局和遥控器命中区域稳定。",
+    "保留“减少动态效果”设置，开启后按系统偏好立即停用过渡动画。"
   ],
   "platforms": {
     "android-tv": {
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/tv-v0.1.3-4005/TT-MUSIC-TV-0.1.3-4005.apk",
       "minSdk": 24,
-      "sizeBytes": 89800467,
-      "sha256": "88fe375f005cb42b28dd472ba8b81fe4785d5b3d520cb663d041cb452fa1f15f",
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/tv-v0.1.2-4004/TT-MUSIC-TV-0.1.2-4004.apk"
+      "sha256": "8e0240ed0d7acbe5302877717cbaee64a8b4f34f1dfe4414589ad46c20e53f3f",
+      "sizeBytes": 89800467
     }
   }
 }

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "appId": "com.ttmusic.tv",
+  "channel": "stable",
+  "version": "0.1.1",
+  "buildNumber": 4003,
+  "releaseNotes": [
+    "新增适配遥控器的软件更新中心，支持自动检查和手动检查新版本。",
+    "支持后台下载、暂停与断点恢复，失败后可重试。",
+    "增加安装包完整性、应用签名和版本校验，通过Android系统界面安全完成覆盖安装。"
+  ],
+  "platforms": {
+    "android-tv": {
+      "sizeBytes": 89800639,
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/tv-v0.1.1-4003/TT-MUSIC-TV-0.1.1-4003.apk",
+      "minSdk": 24,
+      "sha256": "a58b62ab9c4b4d57d739979c70fa5024e5f25cbdebb6d6146c6dd85384f33ad9"
+    }
+  }
+}

@@ -2,29 +2,28 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.app",
   "channel": "stable",
-  "version": "1.2.8",
-  "buildNumber": 29,
+  "version": "1.2.9",
+  "buildNumber": 30,
   "minimumSupportedVersion": "",
   "minimumSupportedBuildNumber": 0,
   "mandatory": false,
   "rollout": {
     "percentage": 100,
-    "salt": "com.ttmusic.app:29"
+    "salt": "com.ttmusic.app:30"
   },
-  "publishedAt": "2026-11-11T13:39:49.542330Z",
-  "title": "TT MUSIC 1.2.8",
+  "publishedAt": "2026-11-22T16:29:48.467552Z",
+  "title": "TT MUSIC 1.2.9",
   "releaseNotes": [
-    "优化 DJ 切歌的响度衔接与峰值保护，改善过渡中段音量下陷。",
-    "保留强烈暗空间混响，恢复原有 0.46 湿声与 3 秒混响窗口。",
-    "改进入场与尾句保护，修复首次播放开头被静音消耗及分析晚到时提前切歌的问题。",
-    "改善切歌中调音量、暂停、定位与异常恢复的稳定性。"
+    "默认智能过渡：上一首曲尾逐步追随下一首节奏，下一首保持原速原调。",
+    "过渡中逐步减弱立体声人声，保留伴奏和混响尾音；改善交接响度连续性。",
+    "加速交接预留解码余量，改善短尾段衔接，并在中断后恢复原速原调。"
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.8/TT-MUSIC-Setup-1.2.8.exe",
-      "sha256": "4e741d224992b4825fcbac63c8bc6389ffc40b8a506c21493dae56910fd19d3d",
-      "fileName": "TT-MUSIC-Setup-1.2.8.exe",
-      "sizeBytes": 320756057,
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.9/TT-MUSIC-Setup-1.2.9.exe",
+      "sha256": "6e11fab32f88a508b9b9662bc9cea61ea12bb663dff0ffd5365065ae1b38f3c4",
+      "fileName": "TT-MUSIC-Setup-1.2.9.exe",
+      "sizeBytes": 336124212,
       "storeUrl": "",
       "installArguments": [],
       "exitAppAfterLaunch": true

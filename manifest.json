@@ -2,28 +2,28 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.app",
   "channel": "stable",
-  "version": "1.2.11",
-  "buildNumber": 32,
+  "version": "1.2.12",
+  "buildNumber": 33,
   "minimumSupportedVersion": "",
   "minimumSupportedBuildNumber": 0,
   "mandatory": false,
   "rollout": {
     "percentage": 100,
-    "salt": "com.ttmusic.app:32"
+    "salt": "com.ttmusic.app:33"
   },
-  "publishedAt": "2026-11-25T12:46:01.910497Z",
-  "title": "TT MUSIC 1.2.11",
+  "publishedAt": "2026-11-26T01:46:09.524670Z",
+  "title": "TT MUSIC 1.2.12",
   "releaseNotes": [
-    "新增本机 Magpie 服务预设，聊天模型可独立于歌词翻译模型切换。",
-    "改进自定义音源启动时的更新提醒、忽略状态和重复提醒处理。",
-    "Windows 安装包补齐 QuickJS 运行库，支持独立运行音源脚本。"
+    "艺术家详情页宽屏横幅改为左下对齐，播放等操作统一放在横幅下方。",
+    "艺术家页头保留发行数量，不再显示已载入曲目数和按需加载提示。",
+    "艺术家、专辑和歌曲详情页的顶部文字支持选中复制；艺术签名可右键或长按复制艺人名。"
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.11/TT-MUSIC-Setup-1.2.11.exe",
-      "sha256": "3da027633b5401f605da1a24cf1955bb5087c59dd52d5101e45f05c7b5a2db7a",
-      "fileName": "TT-MUSIC-Setup-1.2.11.exe",
-      "sizeBytes": 335035970,
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.12/TT-MUSIC-Setup-1.2.12.exe",
+      "sha256": "caf2070a74cb263a64f358a7008a36f555dc05bd7739686caf070c80e6721590",
+      "fileName": "TT-MUSIC-Setup-1.2.12.exe",
+      "sizeBytes": 335042001,
       "storeUrl": "",
       "installArguments": [],
       "exitAppAfterLaunch": true

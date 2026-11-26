@@ -2,28 +2,27 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.app",
   "channel": "stable",
-  "version": "1.2.12",
-  "buildNumber": 33,
+  "version": "1.2.13",
+  "buildNumber": 34,
   "minimumSupportedVersion": "",
   "minimumSupportedBuildNumber": 0,
   "mandatory": false,
   "rollout": {
     "percentage": 100,
-    "salt": "com.ttmusic.app:33"
+    "salt": "com.ttmusic.app:34"
   },
-  "publishedAt": "2026-11-26T01:46:09.524670Z",
-  "title": "TT MUSIC 1.2.12",
+  "publishedAt": "2026-11-26T03:46:30.911417Z",
+  "title": "TT MUSIC 1.2.13",
   "releaseNotes": [
-    "艺术家详情页宽屏横幅改为左下对齐，播放等操作统一放在横幅下方。",
-    "艺术家页头保留发行数量，不再显示已载入曲目数和按需加载提示。",
-    "艺术家、专辑和歌曲详情页的顶部文字支持选中复制；艺术签名可右键或长按复制艺人名。"
+    "新增可独立选择的 Folia 雨夜中式赛博朋克庭院模组，保留经典歌词和演唱会舞台。",
+    "统一详情页图片横幅的取色与布局，并优化图片向视频的过渡。"
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.12/TT-MUSIC-Setup-1.2.12.exe",
-      "sha256": "caf2070a74cb263a64f358a7008a36f555dc05bd7739686caf070c80e6721590",
-      "fileName": "TT-MUSIC-Setup-1.2.12.exe",
-      "sizeBytes": 335042001,
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.13/TT-MUSIC-Setup-1.2.13.exe",
+      "sha256": "8cf10af32ddabc52eee74bc5626df52989e743e5eaffa099b2d5e79d8c8deaf7",
+      "fileName": "TT-MUSIC-Setup-1.2.13.exe",
+      "sizeBytes": 335050339,
       "storeUrl": "",
       "installArguments": [],
       "exitAppAfterLaunch": true

@@ -2,27 +2,26 @@
   "schemaVersion": 1,
   "appId": "com.ttmusic.app",
   "channel": "stable",
-  "version": "1.2.13",
-  "buildNumber": 34,
+  "version": "1.2.14",
+  "buildNumber": 35,
   "minimumSupportedVersion": "",
   "minimumSupportedBuildNumber": 0,
   "mandatory": false,
   "rollout": {
     "percentage": 100,
-    "salt": "com.ttmusic.app:34"
+    "salt": "com.ttmusic.app:35"
   },
-  "publishedAt": "2026-11-26T03:46:30.911417Z",
-  "title": "TT MUSIC 1.2.13",
+  "publishedAt": "2026-11-27T08:27:41.889026Z",
+  "title": "TT MUSIC 1.2.14",
   "releaseNotes": [
-    "新增可独立选择的 Folia 雨夜中式赛博朋克庭院模组，保留经典歌词和演唱会舞台。",
-    "统一详情页图片横幅的取色与布局，并优化图片向视频的过渡。"
+    "更新 AI 伙伴的待机、思考与办公动作，失败时显示数字错误码。"
   ],
   "platforms": {
     "windows-x64": {
-      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.13/TT-MUSIC-Setup-1.2.13.exe",
-      "sha256": "8cf10af32ddabc52eee74bc5626df52989e743e5eaffa099b2d5e79d8c8deaf7",
-      "fileName": "TT-MUSIC-Setup-1.2.13.exe",
-      "sizeBytes": 335050339,
+      "url": "https://github.com/lionlclwd/tt-music-update/releases/download/v1.2.14/TT-MUSIC-Setup-1.2.14.exe",
+      "sha256": "3df0e0d0c643722ff9b7c32cf5db5148ea96ebde5752b784d9b2aa7b1538dd38",
+      "fileName": "TT-MUSIC-Setup-1.2.14.exe",
+      "sizeBytes": 335574558,
       "storeUrl": "",
       "installArguments": [],
       "exitAppAfterLaunch": true
